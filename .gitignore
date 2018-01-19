@@ -1,0 +1,12 @@
+robertenv
+.env
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+/robert/static*
+/media
+*.swp
+robert/bin
+robert/lib
