@@ -5,7 +5,8 @@ robertenv
 *.db
 .DS_Store
 .coverage
-/robert/static*
+/robert/static/static_dirs/*
+/robert/static/static_root/admin/*
 /media
 *.swp
 robert/bin
