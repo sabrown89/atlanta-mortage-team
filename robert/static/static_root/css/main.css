@@ -106,6 +106,43 @@ a#index-video-img-link {
     width: 400px;
 }
 
+/* Glossary */
+
+p.text-center.header-sub-text {
+    font-size: 1.1em;
+    opacity: .7;
+    margin-top: 0;
+}
+
+p.term {
+    font-weight: bold;
+}
+
+p.letter {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+
+p.term {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p.definition {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div.line-letter {
+    border-bottom: solid 1px;
+    opacity: .1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1.2%;
+}
+
 /* Footer */
 
 div.container-fluid.footer {
