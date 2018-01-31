@@ -1,0 +1,161 @@
+/* Navbar */
+
+ul.nav.navbar-nav {
+    margin-left: 11%;
+}
+
+li a {
+    color: #000; !important
+}
+
+.navbar-header img {
+    margin-left: 60%;
+}
+
+#nav-border-bottom {
+    border-bottom: solid 1px;
+    opacity: .1;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    margin-right: .5%;
+    margin-left: .5%;
+}
+
+/* Index Page */
+
+p.text-center {
+    margin-top: 3%;
+    font-size: 2.5em;
+}
+
+span.red {
+    color: red;
+}
+
+h6 {
+    color: #000;
+}
+
+img.img-responsive {
+    margin-left: 15%;
+}
+
+body {
+    margin-right: .5%;
+    margin-left: .5%;
+}
+
+.index-page-boxes {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#box-line.row {
+    border-bottom: solid 1px;
+    padding: .3%;
+    opacity: .2;
+}
+
+span.glyphicon-piggy-bank {
+    font-size: 2.2em;
+    position: relative;
+}
+
+span.glyphicon-user {
+    font-size: 2.2em;
+    position: relative;
+}
+
+span.glyphicon-wrench {
+    font-size: 2.2em;
+    position: relative;
+}
+
+span.glyphicon-thumbs-up {
+    font-size: 2.2em;
+    position: relative;
+}
+
+.glyph-text {
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+p.box-glyph-text {
+    font-size: 1.1em;
+    opacity: .7;
+}
+
+span#index-bottom-text.red {
+    font-size: .7em;
+}
+span#index-bottom-text-smaller {
+    font-size: .6em;
+    opacity: .8;
+}
+
+a#index-video-img-link {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+/* Glossary */
+
+p.text-center.header-sub-text {
+    font-size: 1.1em;
+    opacity: .7;
+    margin-top: 0;
+}
+
+p.term {
+    font-weight: bold;
+}
+
+p.letter {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+
+p.term {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p.definition {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div.line-letter {
+    border-bottom: solid 1px;
+    opacity: .1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1.2%;
+}
+
+/* Footer */
+
+div.container-fluid.footer {
+    background-color: #3f3f3f;
+}
+
+#footer {
+    border-bottom: solid 1px;
+    opacity: .1;
+    margin-right: .5%;
+    margin-left: .5%;
+}
+
+.footer {
+    color: white;
+}
