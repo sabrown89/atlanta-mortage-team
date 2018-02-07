@@ -7,6 +7,7 @@ robertenv
 .coverage
 /robert/static/static_dirs/*
 /robert/static/static_root/admin/*
+/robert/static/admin/*
 /media
 *.swp
 robert/bin
