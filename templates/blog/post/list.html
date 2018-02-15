@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <h1>Recent News</h1>
+    <div class="row" id="blog-row">
+    </div>
+    {% for post in posts %}
+        <div class="row blog-list">
+            <div class="col-md-2">
+                <img src="{{ post.photo.url }}" width="200" height="150">
+            </div>
+            <div class="col-md-6">
+                <h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+                <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
+                {{ post.body|truncatewords:30|linebreaks }}
+            </div>
+        </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}

@@ -143,6 +143,29 @@ div.line-letter {
     margin-bottom: 1.2%;
 }
 
+/* Blog */
+
+#blog-row {
+    border-bottom: solid 2px;
+    opacity: .3;
+    margin-left: .2%;
+    margin-right: .2%;
+}
+
+div.row.blog-list {
+    margin-top: 2%;
+}
+
+h2 {
+    margin-top: 0 !important;
+}
+
+div.row.blog-detail {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
 /* Footer */
 
 div.container-fluid.footer {
