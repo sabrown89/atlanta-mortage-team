@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="container borrowers">
+        <img class="img-responsive" id="borrowers-img" src="http://www.supremesouth.com/wp-content/uploads/2014/02/peach2.png">
+        <div class="text-borrowers-img">
+            <h3 class="borrowers-text">BORROWERS</h3>
+            <p class="why-us">Why They Choose Us</p>
+            <p class="vision">Our Vision...</p>
+            <p class="best">To Become The Best</p>
+            <p class="best">Customer Service Company In The</p>
+            <p class="best">Mortgage Banking Industry</p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <p class="text-center borrowers">WHY <span class="red">CHOOSE</span> US?</p>
+        <div class="row borrowers-text">
+            <div class="col-md-12">
+                <div class="row" id="box-line">
+                </div>
+                <div class="row" id="box-line">
+                </div>
+                <p class="borrowers">Our highly experienced Customer Service Specialists (Processors), Underwriters and Closers are 100% committed to delivering the very best client experience possible.  We do everything in-house, so we’re in control throughout the entire loan process.</br></br>
+                Our professional Loan Officers will customize the right loan solution to meet your needs and with your best interest at heart.  We will communicate with you throughout the process so that you feel comfortable each step of the way with no surprises, and we will be ready to close when you are.  We always measure our success by our clients’ willingness to confidently recommend us.</br></br>
+    As a matter of fact, our customer satisfaction rate as measured by surveys at closing is over 96%!</p>
+                <div class="row" id="box-line">
+                </div>
+                <div class="row" id="box-line">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row borrowers-text">
+            <div class="row">
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="glyph-text">Products</span>
+                    <p class="box-glyph-text">We have a full line of loan products to meet your needs, whether it's your first home, second home on the beach , or investment home.</p>
+                </div>
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-cog" aria-hidden="true"></span><span class="glyph-text">Process</span>
+                    <p class="box-glyph-text">We have engineered our process to assure we meet your closing date and time, and strive to fund your loan within an hour of commencement of closing.</p>
+                </div>
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span><span class="glyph-text">Associate Sat</span>
+                    <p class="box-glyph-text">Happy associates equal happy customers! See why we were named #1 on the 2014 Top Workplace list by the Atlanta Journal Constitution.</p>
+                </div>
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span><span class="glyph-text">Calculator</span>
+                    <p class="box-glyph-text">See what your payments might look like with our interactive calculator.</p>
+                </div>
+            </div>
+        </div>
+        {% include "contact.html" %}
+    </div>
+</div>
+{% endblock %}
