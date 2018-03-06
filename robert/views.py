@@ -7,6 +7,10 @@ def index(request):
 def glossary(request):
     return render(request, 'glossary.html')
 
+def realtors(request):
+    form_class = ContactForm
+    return render(request, 'realtors.html', {'form': form_class})
+
 def borrowers(request):
     form_class = ContactForm
     return render(request, 'borrowers.html', {'form': form_class})

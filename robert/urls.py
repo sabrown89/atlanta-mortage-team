@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'admin/', admin.site.urls),
     url(r'glossary/', views.glossary, name='glossary'),
     url(r'borrowers/', views.borrowers, name='borrowers'),
+    url(r'realtors/', views.realtors, name='realtors'),
     url(r'contact/', views.contact, name='contact'),
     url(r'^blog/', include('blog.urls')),
     url(r'^$', views.index, name='index'),
